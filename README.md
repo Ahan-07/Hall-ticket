@@ -281,7 +281,7 @@ password_verify()
 
                    └─────────────────┘
 ```
-🔄 Examination Form Workflow
+```🔄 Examination Form Workflow
 Student Login
       │
       ▼
@@ -316,7 +316,7 @@ Display Examination Details
       │
       ▼
 Print / Download
-
+```
 🗄️ Database
 
 The application uses MySQL for persistent data storage.
