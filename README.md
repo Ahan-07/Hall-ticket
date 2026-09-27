@@ -336,7 +336,7 @@ created_at
 
 The selected subjects are associated with the student's submitted examination form.
 
-📁 Project Structure
+```📁 Project Structure
 student-examination-portal/
 │
 ├── index.php
@@ -367,10 +367,9 @@ student-examination-portal/
 │   └── database.sql
 │
 └── README.md
+```
 
-Update this structure if the actual repository contains additional or differently named files.
-
-⚙️ Requirements
+# ⚙️ Requirements
 
 Before running the project, install:
 
@@ -385,7 +384,9 @@ Recommended local environments:
 XAMPP
 WAMP
 Laragon
-🚀 Installation
+
+# 🚀 Installation
+
 1. Clone Repository
 git clone YOUR_REPOSITORY_URL
 2. Open Project Directory
@@ -405,12 +406,15 @@ C:\xampp\htdocs\
 Place the project inside:
 
 C:\xampp\htdocs\student-examination-portal
-🗄️ Database Setup
+
+#🗄️ Database Setup
+
 Create Database
 
 Open phpMyAdmin and create:
 
 CREATE DATABASE student_portal;
+
 Import Database
 
 If the repository contains a SQL file:
