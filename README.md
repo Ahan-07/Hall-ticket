@@ -64,7 +64,7 @@ The registration process validates required information before creating a studen
 
 Students can log in using:
 
-```text
+```
 Email
 OR
 Enrollment Number
@@ -103,7 +103,8 @@ Authentication Flow
                 │                 │
                 ▼                 ▼
            Dashboard            Error
-📊 Student Dashboard
+```
+# 📊 Student Dashboard
 
 After successful authentication, students can access their protected dashboard.
 
@@ -117,7 +118,7 @@ Logout
 
 The logged-in student's name and academic information can also be displayed.
 
-👤 Student Information
+#👤 Student Information
 
 The student information section displays information stored in the database.
 
@@ -139,7 +140,7 @@ Profile Photograph
 
 Student information can be displayed in a structured format suitable for viewing and printing.
 
-📝 Examination Form
+#  📝 Examination Form
 
 The examination form allows students to submit examination-related information.
 
@@ -156,7 +157,7 @@ Back
 
 The available subjects are determined according to the selected semester.
 
-📚 Semester-Wise Subjects
+# 📚 Semester-Wise Subjects
 
 The application supports semester-based subject selection.
 
@@ -171,7 +172,7 @@ PRACTICAL
 
 When a student selects a semester, the application can retrieve the corresponding subjects from the database.
 
-📄 Examination Submission
+# 📄 Examination Submission
 
 After selecting the required examination information and subjects, the student can submit the examination form.
 
@@ -186,7 +187,7 @@ Submission Date
 
 The submitted information is stored in the MySQL database.
 
-🖨️ Print Examination Details
+# 🖨️ Print Examination Details
 
 After submitting the examination form, students can view their examination information and use the browser's print functionality to generate a printable copy.
 
@@ -199,7 +200,8 @@ Examination Type
 Submission Date
 Selected Subjects
 Student Photograph
-🔑 Password Management
+
+# 🔑 Password Management
 
 The application includes password-management functionality for students.
 
@@ -211,7 +213,7 @@ Password change/reset functionality
 
 Passwords are not intended to be stored as plain text.
 
-🚪 Logout
+#🚪 Logout
 
 Students can securely end their current session using the logout functionality.
 
@@ -235,7 +237,8 @@ Authentication
 PHP Sessions
 password_hash()
 password_verify()
-🏗️ System Architecture
+
+```🏗️ System Architecture
                         ┌─────────────────────┐
                         │       Student       │
                         └──────────┬──────────┘
@@ -275,7 +278,9 @@ password_verify()
                    ┌─────────────────┐
                    │      MySQL      │
                    │    Database     │
+
                    └─────────────────┘
+```
 🔄 Examination Form Workflow
 Student Login
       │
@@ -311,6 +316,7 @@ Display Examination Details
       │
       ▼
 Print / Download
+
 🗄️ Database
 
 The application uses MySQL for persistent data storage.
@@ -514,19 +520,6 @@ Responsive layouts
 
 Add screenshots from the actual deployed/local application here.
 
-Home Page
-![Home Page](screenshots/home.png)
-Registration
-![Registration](screenshots/register.png)
-Login
-![Login](screenshots/login.png)
-Student Dashboard
-![Dashboard](screenshots/dashboard.png)
-Student Information
-![Student Information](screenshots/student-data.png)
-Examination Form
-![Examination Form](screenshots/examination-form.png)
-🎯 Project Objectives
 
 The main objectives of this project are to demonstrate practical implementation of:
 
@@ -654,15 +647,6 @@ Connect
 🐙 GitHub
 https://github.com/Ahan-07
 
-💼 LinkedIn
-YOUR_LINKEDIN_URL
-
-📧 Email
-YOUR_EMAIL
-
-🌐 Portfolio
-YOUR_PORTFOLIO_URL
-
 📄 License
 
 This project is intended for educational and portfolio purposes.
@@ -674,21 +658,3 @@ If you want to allow others to use, modify, and distribute the source code, add 
 If you find this project useful or interesting, consider giving the repository a ⭐.
 
 Thank you for checking out the project!
-
-
-### GitHub repository mein ye structure bhi rakho
-
-```text
-student-examination-portal/
-│
-├── README.md
-├── database/
-│   └── database.sql
-├── screenshots/
-│   ├── home.png
-│   ├── login.png
-│   ├── register.png
-│   ├── dashboard.png
-│   ├── student-data.png
-│   └── examination-form.png
-└── source-code...
