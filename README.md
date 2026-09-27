@@ -317,7 +317,7 @@ Display Examination Details
       ▼
 Print / Download
 ```
-🗄️ Database
+```🗄️ Database
 
 The application uses MySQL for persistent data storage.
 
@@ -335,7 +335,7 @@ subjects
 created_at
 
 The selected subjects are associated with the student's submitted examination form.
-
+```
 ```📁 Project Structure
 student-examination-portal/
 │
@@ -369,7 +369,7 @@ student-examination-portal/
 └── README.md
 ```
 
-# ⚙️ Requirements
+``` ⚙️ Requirements
 
 Before running the project, install:
 
@@ -384,8 +384,8 @@ Recommended local environments:
 XAMPP
 WAMP
 Laragon
-
-# 🚀 Installation
+```
+```# 🚀 Installation
 
 1. Clone Repository
 git clone YOUR_REPOSITORY_URL
@@ -406,8 +406,8 @@ C:\xampp\htdocs\
 Place the project inside:
 
 C:\xampp\htdocs\student-examination-portal
-
-#🗄️ Database Setup
+```
+```🗄️ Database Setup
 
 Create Database
 
@@ -422,8 +422,8 @@ If the repository contains a SQL file:
 database/database.sql
 
 Import it into the newly created database.
-
-🔧 Database Configuration
+``` 
+```🔧 Database Configuration
 
 Open:
 
@@ -453,13 +453,14 @@ if ($conn->connect_error) {
 ?>
 
 Do not upload real production database credentials to GitHub.
-
-▶️ Run the Project
+```
+```▶️ Run the Project
 
 Start Apache and MySQL, then open:
 
 http://localhost/student-examination-portal/
-🔒 Security
+```
+```🔒 Security
 
 The project uses several basic security practices.
 
@@ -487,7 +488,8 @@ User-controlled values should be escaped before being displayed in HTML.
 Example:
 
 htmlspecialchars($value)
-📱 Responsive Design
+```
+```📱 Responsive Design
 
 The interface is designed using Bootstrap's responsive grid and components.
 
@@ -520,12 +522,10 @@ Academic information sections
 Examination workflow
 Campus imagery
 Responsive layouts
-📸 Screenshots
 
-Add screenshots from the actual deployed/local application here.
+```
 
-
-The main objectives of this project are to demonstrate practical implementation of:
+```The main objectives of this project are to demonstrate practical implementation of:
 
 PHP development
 MySQL database integration
@@ -540,7 +540,8 @@ Semester-wise subject management
 Database-driven applications
 Responsive UI development
 Printable academic documents
-💡 What I Learned
+```
+```💡 What I Learned
 
 Through this project, I worked with:
 
@@ -557,12 +558,14 @@ Bootstrap
 Responsive Web Design
 CRUD Operations
 Database Relationships
-🚧 Current Status
+```
+```🚧 Current Status
 Project Status: Development / Academic Project
 
 The current implementation focuses on student registration, authentication, student information, examination-form workflows, subject selection, and database integration.
+```
 
-🔮 Future Improvements
+```🔮 Future Improvements
 
 Potential future improvements include:
 
@@ -585,7 +588,8 @@ REST API
 API-based frontend
 Better production configuration
 Automated testing
-🧪 Testing Checklist
+```
+```🧪 Testing Checklist
 
 Before deployment, test:
 
@@ -610,7 +614,9 @@ Before deployment, test:
 [ ] Mobile layout
 [ ] Desktop layout
 [ ] Database connection
-🌐 Deployment
+
+```
+```🌐 Deployment
 
 The application can be deployed on a PHP-compatible hosting environment.
 
@@ -632,14 +638,16 @@ Restrict database permissions
 Backup the database
 Test all forms
 Test mobile responsiveness
-⚠️ Disclaimer
+```
+
+```⚠️ Disclaimer
 
 This is an independent educational/personal software project.
 
 The application may use university-style terminology, design elements, or publicly available campus imagery for demonstration purposes.
 
 It should not be represented as an official university system unless explicit authorization has been obtained.
-
+```
 👨‍💻 Developer
 Zakir Hussain
 
